@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWidget</class>
+ <widget class="QWidget" name="MainWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWidget</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="styleSheet">
+      <string notr="true">/* ============================================================
+   1. 전역 스타일 및 배경 설정
+   ============================================================ */
+QWidget {
+    background-color: #1b1e23;
+    color: #d1d5db;
+    font-family: &quot;Segoe UI&quot;, &quot;Malgun Gothic&quot;, sans-serif;
+    font-size: 13px;
+}
+
+/* ============================================================
+   2. 컨테이너 (GroupBox &amp; QFrame 카드 디자인)
+   ============================================================ */
+QGroupBox {
+    background-color: #242930;
+    border: 1px solid #323842;
+    border-radius: 10px;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top left;
+    left: 10px;
+    padding: 0 10px;
+    color: #00f2ff;
+}
+
+QFrame {
+    background-color: #2c313a;
+    border: 1px solid #3e4451;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+QFrame:hover {
+    border: 1px solid #26c6da;
+    background-color: #353b45;
+}
+
+/* ============================================================
+   3. 일반 버튼 디자인
+   ============================================================ */
+QPushButton {
+    background-color: #313742;
+    border: 1px solid #3e4551;
+    border-radius: 6px;
+    padding: 10px;
+    font-weight: 600;
+    color: #eceff1;
+}
+
+QPushButton:hover {
+    background-color: #3a4250;
+    border: 1px solid #00f2ff;
+    color: #ffffff;
+}
+
+QPushButton:pressed {
+    background-color: #00f2ff;
+    color: #1b1e23;
+}
+
+/* 방향키 전용 (Object Name이 pPB로 시작) */
+QPushButton[objectName^=&quot;pPB&quot;] {
+    background-color: #2c323d;
+    font-size: 16px;
+}
+
+/* ============================================================
+   4. 특수 버튼 (START &amp; STOP)
+   ============================================================ */
+#btnStartNavi {
+    background-color: #26c6da !important;
+    color: #1b1e23 !important;
+    border: 2px solid #00f2ff !important;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+#btnStartNavi:hover {
+    background-color: #33e0f5 !important;
+    border: 2px solid #ffffff !important;
+}
+
+#pPBStop {
+    background-color: #3d2b2e;
+    border: 1px solid #ff4d4d;
+    color: #ff4d4d;
+}
+
+/* ============================================================
+   5. 라벨 스타일 (일반 및 데이터 수치)
+   ============================================================ */
+/* [추가] 일반 라벨: 제목용 (로봇, 목적지, 충전소 등) */
+QLabel {
+    qproperty-alignment: 'AlignCenter'; 
+    font-weight: bold;
+    color: #90a4ae; 
+    margin-bottom: 5px;
+    background-color: transparent;
+}
+
+/* [유지] 데이터 수치 라벨 강조 (전압, 배터리 수치 등) */
+QLabel[objectName$=&quot;Value&quot;] {
+    color: #00f2ff;
+    font-family: &quot;Consolas&quot;, monospace;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* ============================================================
+   6. 기타 입력 위젯
+   ============================================================ */
+QComboBox {
+    background-color: #1b1e23;
+    border: 1px solid #3e4551;
+    border-radius: 4px;
+    padding: 5px;
+    color: #d1d5db;
+}
+
+QComboBox::drop-down {
+    border: none;
+}
+
+QProgressBar {
+    background-color: #121417;
+    border: 1px solid #323842;
+    border-radius: 4px;
+    text-align: center;
+    color: white;
+}
+
+QProgressBar::chunk {
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:0, 
+                      stop:0 #00c6ff, stop:1 #00f2ff);
+    border-radius: 3px;
+}
+
+QCheckBox::indicator {
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+    border: 1px solid #3e4551;
+}
+
+QCheckBox::indicator:checked {
+    background-color: #00f2ff;
+    border: 1px solid #00f2ff;
+}</string>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="pTab1">
+      <attribute name="title">
+       <string>Tab 1</string>
+      </attribute>
+     </widget>
+     <widget class="QWidget" name="pTab2">
+      <attribute name="title">
+       <string>Tab 2</string>
+      </attribute>
+     </widget>
+     <widget class="QWidget" name="pTab3">
+      <attribute name="title">
+       <string>Tab 3</string>
+      </attribute>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
