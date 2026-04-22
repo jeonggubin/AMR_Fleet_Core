@@ -14,6 +14,7 @@ find_package(geometry_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(rclcpp_action REQUIRED)
 find_package(nav2_msgs REQUIRED)
+find_package(tf2 REQUIRED)
 
 # Set Qt
 set(CMAKE_AUTOMOC on)
@@ -35,6 +36,12 @@ add_executable(turtlebot_node
   src/tab2.ui
   src/rosnode.h
   src/rosnode.cpp
+  src/pathfinding.h
+  src/pathfinding.cpp
+  src/simulation.h
+  src/simulation.cpp
+  src/navi.h
+  src/navi.cpp
 )
 
 ament_target_dependencies(turtlebot_node
@@ -44,6 +51,7 @@ ament_target_dependencies(turtlebot_node
   sensor_msgs
   rclcpp_action
   nav2_msgs
+  tf2
 )
 
 # include 폴더를 삭제했으므로 src 폴더만 포함 경로로 설정합니다.

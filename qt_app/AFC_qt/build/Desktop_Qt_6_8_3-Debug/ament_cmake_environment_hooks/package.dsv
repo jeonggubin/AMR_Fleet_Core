@@ -1,0 +1,4 @@
+source;share/AFC_qt/local_setup.bash
+source;share/AFC_qt/local_setup.dsv
+source;share/AFC_qt/local_setup.sh
+source;share/AFC_qt/local_setup.zsh
