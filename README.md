@@ -7,24 +7,24 @@
 ---
 
 ## 📅 프로젝트 개요
-- **프로젝트 명:** 
-- **수행 기간:** 2026.00.00 ~ 2026.00.00
+- **프로젝트 명:** AMR FLEET CORE
+- **수행 기간:** 2026.04.20 ~ 2026.04.27
 - **주요 기능**
-  - **1:** explain
-  - **2:** explain
-  - **3:** explain
-  - 
+  - **1:** TurtleBot 2대 기반 다중 물류 로봇 제어
+  - **2:** A* 알고리즘 기반 경로 탐색 및 장애물 회피
+  - **3:** 우선순위, 임계구역, 재탐색, 대피소 기반 충돌 예외 처리
+  - **4:** Qt 관제 UI와 MariaDB를 통한 실시간 모니터링 및 작업 이력 관리
 
 ---
 
 ## 🛠 기술 스택
 | 분류 | 기술 Stack |
 | :--- | :--- |
-| **Languages** | C++ |
-| **Communication** |  |
+| **Languages** | C++, Python |
+| **Communication** | ROS2, Wi-Fi, Serial |
 | **Frameworks** | Qt 6 |
-| **Database** |  |
-| **Hardware/OS** | Raspberry Pi |
+| **Database** | MariaDB |
+| **Hardware/OS** | TurtleBot3, Raspberry Pi, Ubuntu 22.04 |
 
 ---
 
@@ -54,6 +54,6 @@
 | 이름 | 역할 | 담당 파트 |
 |----------|----------|----------|
 | 김준기 | 팀장 | |
-| 허준형 | 부팀장 | 테스트 커밋 |
+| 허준형 | 부팀장 | DB 설계, 컨베이어 벨트 구동 제어, QT & 터틀 봇 연동 작업 |
 | 정구빈 | Frontend/Firmware | Qt 기반 통합 관제 대시보드 구현 및 엑추에이터 구동 제어 |
 | 박준서 | | 테스트 커밋 |
