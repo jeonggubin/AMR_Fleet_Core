@@ -5,9 +5,11 @@
   <tr>
     <td align="center">
       <img src="https://github.com/user-attachments/assets/2e96bcc6-bbc8-44d6-a2c9-26a7efec3f61" height="250px" alt="autonomous-mobile-robots-amr-marketsss" />
+      <br><b>자율 이동 로봇 시장 규모</b>
     </td>
     <td align="center">
       <img src="https://github.com/user-attachments/assets/64117203-b8d7-48eb-a18a-bc66e685c9bd" height="250px" alt="us-autonomous-mobile-robots-market-sizess" />
+      <br><b>자율 이동 로봇 시장 분석 그래프</b>
     </td>
   </tr>
 </table>
