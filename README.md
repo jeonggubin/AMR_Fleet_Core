@@ -3,10 +3,12 @@
 ### 🛠 개발 배경
 <table>
   <tr>
-    <td align="center"><img src="<img width="1200" height="600" alt="autonomous-mobile-robots-amr-marketsss" src="https://github.com/user-attachments/assets/2e96bcc6-bbc8-44d6-a2c9-26a7efec3f61" />
-" width="100%" /></td>
-    <td align="center"><img src="<img width="800" height="450" alt="us-autonomous-mobile-robots-market-sizess" src="https://github.com/user-attachments/assets/64117203-b8d7-48eb-a18a-bc66e685c9bd" />
-" width="100%" /></td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/2e96bcc6-bbc8-44d6-a2c9-26a7efec3f61" width="100%" alt="autonomous-mobile-robots-amr-marketsss" />
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/64117203-b8d7-48eb-a18a-bc66e685c9bd" width="100%" alt="us-autonomous-mobile-robots-market-sizess" />
+    </td>
   </tr>
 </table>
 
