@@ -10,7 +10,7 @@ void setup() {
   analogWrite(PWM_PIN, 0);
 } 
 
-void loop() {
+void loop() { 
   // 적외선 센서에 물체가 감지되면 (LOW일 때 작동)
   if (digitalRead(SENSOR_PIN) == LOW) {
     
