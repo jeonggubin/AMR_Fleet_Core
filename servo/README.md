@@ -1,4 +1,3 @@
-<img width="2177" height="407" alt="브링업으로 서보모터 가동 성공!" src="https://github.com/user-attachments/assets/fe00d1ff-4cbe-4258-af72-eea9c254fff0" />
 # TurtleBot3 Servo Motor Control
 
 ## 📂 파일 구조
