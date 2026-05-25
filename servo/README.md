@@ -21,8 +21,8 @@ servo/
 | 서보 선 | 연결 위치 |
 |---|---|
 | 노란선 (신호) | OpenCR D9 |
-| 빨간선 (VCC) | 외부 5V |
-| 검정선 (GND) | 외부 GND (OpenCR GND 공통 연결) |
+| 빨간선 (VCC) | OpenCR 5V |
+| 검정선 (GND) | OpenCR GND |
 
 ---
 
