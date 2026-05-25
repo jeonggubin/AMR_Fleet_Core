@@ -1,3 +1,4 @@
+<img width="2177" height="407" alt="브링업으로 서보모터 가동 성공!" src="https://github.com/user-attachments/assets/fe00d1ff-4cbe-4258-af72-eea9c254fff0" />
 # TurtleBot3 Servo Motor Control
 
 ## 📂 파일 구조
@@ -131,6 +132,6 @@ ROS_DOMAIN_ID=4 ros2 topic pub /tb3_a/servo_angle std_msgs/msg/Int32 "data: 180"
 ## 🖼 동작 확인
 
 <p align="center">
-  <img src="image.png" width="90%" alt="동작 확인"/>
+  <img width="90%" alt="브링업으로 서보모터 가동 성공!" src="https://github.com/user-attachments/assets/6a6163a6-241e-4a4a-bae2-6590fcceaf64" />
   <br><i>[브링업 및 서보 제어 동작 확인]</i>
 </p>
