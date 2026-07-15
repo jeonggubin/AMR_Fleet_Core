@@ -207,24 +207,13 @@ SLAM 자율 주행과 A* 알고리즘을 결합하여, 다중 로봇 간의 경�
 ---
 
 ## 🎬 시연 영상
-<table align="center">
-  <tr>
-    <td align="center"><b>A* 다중 로봇 경로 최적화 시연</b></td>
-    <td align="center"><b>Qt 기반 관제 시스템</b></td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://youtu.be/I8Uspe3LYt0?si=sRhghHwbzkAC9PaZ">
-        <img src="https://img.youtube.com/vi/I8Uspe3LYt0/0.jpg" width="450px">
-      </a>
-    </td>
-    <td>
-      <a href="https://youtu.be/W_x_qIhRaaY?si=ARUJPUI9Pgl4YZpU">
-        <img src="https://img.youtube.com/vi/W_x_qIhRaaY/0.jpg" width="450px">
-      </a>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <b>AMR FLEET CORE (다중 로봇 제어 및 관제 시스템)</b>
+  <br><br>
+  <a href="https://youtu.be/2zsYk8SEpDE">
+    <img src="https://img.youtube.com/vi/2zsYk8SEpDE/0.jpg" width="450px">
+  </a>
+</div>
 
 <hr>
 
