@@ -50,10 +50,10 @@ SLAM 자율 주행과 A* 알고리즘을 결합하여, 다중 로봇 간의 경�
 ---
 
 ## 🧩 시스템 아키텍처
-
-### H/W Architecture
 <p align="center">
-  <img src="./images/Architecture.png" width="90%" alt="Architecture" />
+  <a href="./images/%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98.png">
+    <img src="./images/%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98.png" width="90%" alt="시스템 아키텍처" />
+  </a>
 </p>
 
 ---
