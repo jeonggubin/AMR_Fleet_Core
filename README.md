@@ -93,16 +93,11 @@ SLAM 자율 주행과 A* 알고리즘을 결합하여, 다중 로봇 간의 경�
       <img src="./images/그리드%20맵%20기반%20실시간%20제어.png" width="330" height="250" alt="그리드 맵 기반 실시간 제어"/>
     </td>
     <td>
-      <img src="./images/작업%20이력%20관리%20및%20실시간%20재고%20현황.png" width="330" height="250" alt="작업 이력 관리 및 재고 현황"/>
+      <img src="./images/작업%20이력%20관리%20및%20실시간%20재고%20현황.png" width="330" height="250" alt="작업 이력 관리 및 실시간 재고 현황"/>
     </td>
     <td>
       <img src="./images/MariaDB%20기반%20테이블%20구조.png" width="330" height="250" alt="MariaDB 기반 테이블 구조"/>
     </td>
-  </tr>
-  <tr>
-    <td align="center">그리드 맵 기반 실시간 제어</td>
-    <td align="center">작업 이력 관리 및 실시간 재고 현황</td>
-    <td align="center">MariaDB 기반 테이블 구조</td>
   </tr>
 </table>
 
