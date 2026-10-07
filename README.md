@@ -45,8 +45,6 @@ SLAM 자율 주행과 A* 알고리즘을 결합하여, 다중 로봇 간의 경�
 | **Database** | MariaDB |
 | **Hardware/OS** | Raspberry Pi4, OpenCR, Arduino Uno, TurtleBot3, LiDAR(LDS-01, LDS-02), Linear Actuator, Servo Motor(MG995), 컨베이어벨트, 적외선 근접 센서(TCRT5000), Ubuntu 22.04 |
 
-<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=C%2B%2B&logoColor=white" /> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white" /> <img src="https://img.shields.io/badge/Arduino(Sketch)-00979D?style=flat-square&logo=Arduino&logoColor=white" /> <img src="https://img.shields.io/badge/ROS2-22314E?style=flat-square&logo=ROS&logoColor=white" /> <img src="https://img.shields.io/badge/Serial(UART)-FF6F61?style=flat-square&logo=diagrams.net&logoColor=white" /> <img src="https://img.shields.io/badge/Qt%206-41CD52?style=flat-square&logo=Qt&logoColor=white" /> <img src="https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=MariaDB&logoColor=white" /> <img src="https://img.shields.io/badge/Linux%20(Ubuntu%2022.04)-E95420?style=flat-square&logo=Ubuntu&logoColor=white" />
-
 ---
 
 ## 🧩 시스템 아키텍처
@@ -95,7 +93,7 @@ SLAM 자율 주행과 A* 알고리즘을 결합하여, 다중 로봇 간의 경�
       <img src="./images/그리드%20맵%20기반%20실시간%20제어.png" width="330" height="250" alt="그리드 맵 기반 실시간 제어"/>
     </td>
     <td>
-      <img src="./images/작업%20이력%20관리%20및%20실시간%20재고%20현황.png" width="330" height="250" alt="작업 이력 관리 및 실시간 재고 현황"/>
+      <img src="./images/작업%20이력%20관리%20및%20실시간%20재고%20현황.png" width="330" height="250" alt="작업 이력 관리 및 재고 현황"/>
     </td>
     <td>
       <img src="./images/MariaDB%20기반%20테이블%20구조.png" width="330" height="250" alt="MariaDB 기반 테이블 구조"/>
