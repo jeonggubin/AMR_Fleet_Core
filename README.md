@@ -197,11 +197,6 @@ SLAM 자율 주행과 A* 알고리즘을 결합하여, 다중 로봇 간의 경�
       <img src="./images/시연%20화면2.png" width="100%" alt="시연 화면2">
     </td>
   </tr>
-  <tr>
-    <td align="center">
-      <img src="./images/시연%20화면3.png" width="100%" alt="시연 화면3">
-    </td>
-  </tr>
 </table>
 
 ---
